@@ -2,12 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #header-bottom {
-    height: 200px;
-    background-size: 1890px 200px;
-    background-image: url("data:image/svg+xml,%3Csvg width='1896.1' height='233.76' version='1.1' viewBox='0 0 1890 230' xmlns='http://www.w3.org/2000/svg'%3E %3Cg transform='translate(-.73845 -244.74)'%3E %3Cpath d='m1.0991 275.33c150.54-65.398 274.62 27.948 352.38 23.659 109.18-6.0214 105.75-12.05 148.51-27.234l0.77343 34.517h-501.67z' fill='#fff'/%3E %3Cg shape-rendering='crispEdges'%3E %3Cpath transform='matrix(.26458 0 0 .26458 .73845 244.74)' d='m0 0v0.0019531h1896.1v-0.0019531h-1896.1zm464.13 15.434c-127.22 0.16027-271.52 21.563-419.47 84.977 431.68-184.9 832.3 30.579 868.33 44.594 47.253 16.571 220.99 88.743 490.78 88.756 269.77-0.02268 416.69-62.907 490.73-88.756h1.5606v-42.885h-1.5606c-74.04 25.849-220.96 88.733-490.73 88.756-269.79-0.01285-443.53-72.185-490.78-88.756-23.68-9.2117-204.87-86.993-448.86-86.686z' fill='#0072af'/%3E %3Cpath transform='matrix(.26458 0 0 .26458 .73845 244.74)' d='m464.13 15.434c-127.8 0.16101-272.84 21.747-421.49 85.836 432.45-186.44 834.27 18 870.35 32.037 47.253 16.571 220.99 88.745 490.78 88.758 269.77-0.02267 416.69-62.909 490.73-88.758h1.5606v-31.189h-1.5606c-74.04 25.849-220.96 88.735-490.73 88.758-269.79-0.01285-443.53-72.187-490.78-88.758-23.68-9.2117-204.87-86.991-448.86-86.684z' fill='#ffd70c'/%3E %3Cpath transform='matrix(.26458 0 0 .26458 .73845 244.74)' d='m464.13 15.434c-127.8 0.16101-272.84 21.747-421.49 85.836 432.45-186.44 834.27 6.3049 870.35 20.342 47.253 16.571 220.99 88.743 490.78 88.756 269.77-0.02268 416.69-62.907 490.73-88.756h1.5606v-19.494h-1.5606c-74.04 25.849-220.96 88.735-490.73 88.758-269.79-0.01285-443.53-72.187-490.78-88.758-23.68-9.2117-204.87-86.991-448.86-86.684z' fill='#ff2a2a'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E%0A");
+	height: 200px;
 }
 
-
-
+.carousel-open:checked + .carousel-item {
+	position: static;
+	opacity: 100;
+}
+.carousel-item {
+	-webkit-transition: opacity 0.6s ease-out;
+	transition: opacity 0.6s ease-out;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2{
+	display: block;
+}
+.carousel-indicators {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 1%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+#carousel-1:checked
+	~ .control-1
+	~ .carousel-indicators
+	li:nth-child(1)
+	.carousel-bullet,
+#carousel-2:checked
+	~ .control-2
+	~ .carousel-indicators
+	li:nth-child(2)
+	.carousel-bullet{
+	color: #2b6cb0; /*Set to match the Tailwind colour you want the active one to be */
+}
