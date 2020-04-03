@@ -13938,6 +13938,10 @@ video {
   transition-duration: 1000ms;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 #header-bottom {
   height: 200px;
 }
@@ -13979,6 +13983,10 @@ video {
 	li:nth-child(2)
 	.carousel-bullet{
   color: #2b6cb0; /*Set to match the Tailwind colour you want the active one to be */
+}
+
+#aula-virtual{
+  background: url('../images/kid-computer.jpg');
 }
 
 @media (min-width: 640px) {
