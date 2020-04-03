@@ -607,7 +607,7 @@
 					</div>
 					<div class="w-3/5 md:mt-24">
 						<div class="flex flex-col">
-							<div class="w-full md:w-2/5 text-white">
+							<div class="w-full md:w-1/2 text-white">
 								<h2 class="flext itemts-center font-bold text-xl md:pb-6">
 									<span class="material-icons">
 										vpn_key
@@ -619,6 +619,10 @@
 									    Ingreso al Aula Virtual
 									</span>
 								</h2>
+								<div id="form-message" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+								    <strong class="font-bold">Error:</strong>
+								    <span class="block sm:inline">La clave ingresada no es la correcta.</span>
+								</div>
 								<form class="flex flex-col">
 									<div
 										class="flex flex-row items-center py-2 px-4 mt-1 relative rounded-md shadow-sm bg-white text-gray-800"
@@ -635,7 +639,7 @@
 										/>
 									</div>
 									<button
-										type="button"
+										type="submit"
 										class="mt-2 bg-blue-900 hover:bg-blue-700 text-blue-100 font-bold py-2 px-4 rounded inline-flex items-center"
 									>
 										<span class="material-icons">
@@ -745,6 +749,19 @@
 
 			//SmoothScroll Initialization
 			var scroll = new SmoothScroll('a[href*="#"]');
+
+			function enterAula(e){
+			    e.preventDefault();
+			    var key = document.querySelector("#key").value;
+			    if(key==="1528124"||key==="1698323"){
+				window.location = "/aulavirtual.html";
+			    }else{
+				document.querySelector("#form-message").classList.remove("hidden");
+			    }
+			    return false;
+			}
+
+			document.querySelector("form").addEventListener("submit", enterAula);
 		</script>
 	</body>
 </html>
