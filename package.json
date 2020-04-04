@@ -10,6 +10,7 @@
       "tailwind": "^4.0.0"
    },
    "scripts": {
+      "js": "uglifyjs assets/js/src/index.js -o assets/js/app.min.js",
       "tailwind": "npx tailwind build 'assets/css/styles.css' -o 'assets/css/styles.min.css' ",
       "browser": "npx browser-sync start --config bs-config.js",
       "start": "npm run browser && npm run tailwind",
