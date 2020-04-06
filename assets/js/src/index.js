@@ -46,7 +46,8 @@ function enterAula(e) {
     e.preventDefault()
     var key = document.querySelector("#key").value
     if (key === "1528124" || key === "1698323") {
-        window.location = "/aulavirtual.html"
+	var g = (key === "1528124") ? 'i' : 'p';
+	window.location = "/aulavirtual.html?g=" + g
     } else {
         document.querySelector("#form-message").classList.remove("hidden")
     }

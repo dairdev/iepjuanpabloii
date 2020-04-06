@@ -81,12 +81,12 @@
         </div>
     </nav>
 
-    <div class="flex flex-col md:flex-row">
+    <div id="sidebar" class="flex flex-col md:flex-row">
         <div class="bg-gray-900 shadow-lg h-16 fixed bottom-0 mt-12 md:relative md:h-screen z-10 w-full md:w-48">
-            <div class="md:mt-12 md:w-48 md:fixed md:left-0 md:top-0 content-center md:content-start text-left justify-between">
+            <div class="md:mt-16 md:w-48 md:fixed md:left-0 md:top-0 content-center md:content-start text-left justify-between">
                 <ul class="list-reset flex flex-row md:flex-col py-0 md:py-3 px-1 md:px-2 text-center md:text-left">
 		    <li class="mr-3 flex-1">
-			<a href="#" class="flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
+			<a href="#" id="lnkComunicados" class="sidebar flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
 			    <span class="material-icons">message</span>
 			    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block" >
 				Comunicados
@@ -94,7 +94,7 @@
 			</a>
 		    </li>
 		    <li class="mr-3 flex-1">
-			<a href="#" class="flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
+			<a href="#" id="lnkClases" class="sidebar flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
 			    <span class="material-icons">ballot</span>
 			    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block" >
 				Clases
@@ -113,7 +113,7 @@
 	    </div>
 	</div>
 
-	<div id="comunicados" class="main-content flex-1 bg-gray-100 mt-12 md:mt-2 pb-24 md:pb-5">
+	<div id="comunicados" class="main-content flex-1 bg-gray-100 mt-12 md:mt-6 pb-24 md:pb-5">
 	    <div class="bg-blue-800 p-2 shadow text-xl text-white">
 		<h3 class="font-bold pl-2">Comunicados</h3>
 	    </div>
@@ -132,85 +132,82 @@
 			    <li class="mt-2">Clases y Asignaciones</li>
 			</ul>
 		    </div>
-		    <iframe width="560" height="315" src="https://www.youtube.com/embed/QdZU3HgPJ7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 	    </div>
 	</div>
-	<div id="clases" class="main-content flex-1 bg-gray-100 mt-12 md:mt-2 pb-24 md:pb-5">
+	<div id="clases" class="main-content flex-1 bg-gray-100 mt-12 md:mt-6 pb-24 md:pb-5 hidden">
 	    <div class="bg-blue-800 p-2 shadow text-xl text-white">
-		<h3 class="font-bold pl-2">Asignaciones</h3>
+		<h3 class="font-bold pl-2">Clases</h3>
 	    </div>
-	    <div class="flex flex-col content-center items-center">
-		<div class="w-3/4 shadow mt-2 sm:mt-6 p-4 pb-6">
-		    <h2 class="text-xl font-bold text-center">Comunicado</h2>
-		    <p class="text-right">Jaen 03 Abri 2020</p>
-		    <div class="text-justify mt-12">
-			<p>
-			    La I.E.P. Juan Pablo II le da la bienvenida a su nueva plataforma virtual
-			</p>
-			<br />
-			<p>Aqui podrá encontrar:</p>
-			<ul class="list-disc ml-4">
-			    <li class="mt-2">Comunicados Institucionales</li>
-			    <li class="mt-2">Asignaciones y Tareas</li>
-			</ul>
+	    <div id="inicial" class="flex flex-wrap w-full pt-8 items-center justify-center hidden">
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="2" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">2 Años</a></div>
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="3" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">3 Años</a></div>
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="4" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">4 Años</a></div>
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="5" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">5 Años</a></div>
+	    </div>
+	    <div id="primaria" class="flex flex-wrap w-full pt-8 items-center justify-center hidden">
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="1" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">1 Grado</a></div>
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="2" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">2 Grado</a></div>
+		<div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="3" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">3 Grado</a></div>
+	    </div>
+
+	    <div id="content" class="flex flex-col w-full pt-8 ">
+		<div id="i2" class="content-class hidden">
+		    <div class="content p-4">
+			<h3 class="flex flex-row items-center">
+			    <span class="material-icons">videocam</span>
+			    <span>Video</span>
+			</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/QdZU3HgPJ7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		    </div>
-		    <iframe width="560" height="315" src="https://www.youtube.com/embed/QdZU3HgPJ7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    <div class="content p-4 flex flex-row">
+			<h3 class="flex flex-row items-center mr-4">
+			    <span class="material-icons">list_alt</span>
+			    <span>Ficha</span>
+			</h3>
+			<a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="docs/inicial/Abril062020/2/Pintamos.docx">
+			    <span>Pintamos.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+		    </div>
+		</div>
+		<div id="i3" class="content-class hidden">
+		    <div class="content p-4">
+			<h3 class="flex flex-row items-center">
+			    <span class="material-icons">videocam</span>
+			    <span>Video</span>
+			</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/nKL4OBL_wA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    </div>
+		    <div class="content p-4 flex flex-row">
+			<h3 class="flex flex-row items-center mr-4">
+			    <span class="material-icons">list_alt</span>
+			    <span>Ficha</span>
+			</h3>
+			<a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="docs/inicial/Abril062020/3/Delinea y colorea.docx">
+			    <span>Delinea y colorea.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+		    </div>
+		</div>
+		<div id="p1" class="content-class hidden">
+		    <div class="content p-4 flex flex-row">
+			<h3 class="flex flex-row items-center mr-4">
+			    <span class="material-icons">list_alt</span>
+			    <span>Ficha</span>
+			</h3>
+			<a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="docs/inicial/Abril062020/3/Delinea y colorea.docx">
+			    <span>Delinea y colorea.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+		    </div>
 		</div>
 	    </div>
+
 	</div>
     </div>
 
-    <script>
-	/*Toggle dropdown list*/
-	function toggleDD(myDropMenu)
-	{
-	    document.getElementById(myDropMenu).classList.toggle("invisible")
-	}
-	/*Filter dropdown options*/
-	function filterDD(myDropMenu, myDropMenuSearch)
-	{
-	    var input, filter, ul, li, a, i
-	    input = document.getElementById(myDropMenuSearch)
-	    filter = input.value.toUpperCase()
-	    div = document.getElementById(myDropMenu)
-	    a = div.getElementsByTagName("a")
-	    for (i = 0; i < a.length; i++)
-	    {
-		if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1)
-		{
-		    a[i].style.display = ""
-		}
-		else
-		{
-		    a[i].style.display = "none"
-		}
-	    }
-	}
-	// Close the dropdown menu if the user clicks outside of it
-	window.onclick = function(event)
-	{
-	    if (!event.target.matches(".drop-button") &&
-		!event.target.matches(".drop-search")
-	    )
-	    {
-		var dropdowns = document.getElementsByClassName(
-		    "dropdownlist")
-		for (var i = 0; i < dropdowns.length; i++)
-		{
-		    var openDropdown = dropdowns[i]
-		    if (!openDropdown.classList.contains("invisible"))
-		    {
-			openDropdown.classList.add("invisible")
-		    }
-		}
-	    }
-	    if (event.target.matches(".js-exit-app"))
-	    {
-		window.location = "/index.html";
-	    }
-	}
-    </script>
+    <script src="assets/js/aula/app.min.js"></script>
 </body>
 
 </html>
