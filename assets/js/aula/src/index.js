@@ -82,8 +82,6 @@ window.onclick = function(event)
     if(event.target.tagName === "SPAN") {
 	lnk = lnk.parentNode;
     }
-    console.log(lnk);
-    console.log(lnk.className);
     if(lnk.id === "lnkClases") {
 	document.querySelector("#comunicados").classList.add("hidden");
 	document.querySelector("#clases").classList.remove("hidden");
@@ -95,6 +93,11 @@ window.onclick = function(event)
 
     if(lnk.className.indexOf("grade") >= 0){
 	hideContent();
+	if(document.querySelector(".shadow-2xl")){
+	    document.querySelector(".shadow-2xl").classList.remove("shadow-2xl");
+	}
+	lnk.classList.add("shadow-2xl");
+	lnk.classList.add("border-solid");
 	if(grade.indexOf('i') >= 0){
 	    var age = lnk.getAttribute("data-age");
 	    document.querySelector("#i" + age).classList.remove("hidden");
