@@ -1,0 +1,131 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fafafa;
+	font-family: "Helvetica Neue", arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+
+main {
+	min-height: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	margin-top: 2em;
+}
+
+.resource {
+	margin-bottom: 1em;
+}
+
+@media (min-width: 600px) {
+	main {
+		width: calc(100% - 240px);
+		margin-left: 240px;
+	}
+	main.nomargin {
+		width: 100% !important;
+		margin-left: 0px !important;
+	}
+}
+
+.sideNav__34ixF .MuiListItem-button__gLqms:hover {
+}
+
+.home__MseGd {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+.title__2Y8Va {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center;
+    justify-items: center;
+    color: #aaa;
+}
+
+.title__2Y8Va span {
+    margin-left: 0.2em;
+}
+
+.home__MseGd h3 {
+    text-align: center;
+    color: rgb(1, 87, 155);
+}
+
+.comunicados__3UuCo {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+.comunicado__3hslt {
+    margin-bottom: 1em;
+}
+
+.ficha__1gnNG {
+    margin-bottom: 1em;
+}
+
+.ficha__1gnNG a {
+	display: -ms-flexbox;
+	display: flex;
+	color: #333;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	-ms-flex-align: center;
+	    align-items: center;
+	text-decoration:  none;
+}
+.ficha__1gnNG a:hover {
+	color: rgb(1, 87, 155);
+}
+
+.ficha__1gnNG a span {
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 100px;
+}
+
+
+.clases__22eBn {
+    padding: 56px 20px;
+    min-height: 100%;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+        flex-flow: row;
+}
+
+.col__2fZch {
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+}
+
+
+/*# sourceMappingURL=ssr-bundle.5b507.css.map*/
