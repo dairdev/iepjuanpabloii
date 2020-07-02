@@ -1,0 +1,30 @@
+{
+   "name": "iepjuanpabloii",
+   "version": "1.0.0",
+   "description": "Web site for school",
+   "main": "index.js",
+   "dependencies": {
+      "tailwindcss": "^1.1.2"
+   },
+   "devDependencies": {
+      "tailwind": "^4.0.0"
+   },
+   "scripts": {
+      "aulajs": "uglifyjs assets/js/aula/src/index.js -o assets/js/aula/app.min.js",
+      "js": "uglifyjs assets/js/src/index.js -o assets/js/app.min.js",
+      "tailwind": "npx tailwind build 'assets/css/styles.css' -o 'assets/css/styles.min.css' ",
+      "browser": "npx browser-sync start --config bs-config.js",
+      "start": "npm run browser && npm run tailwind",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dairdev/iepjuanpabloii.github.io.git"
+   },
+   "author": "Dennis Infantas",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/dairdev/iepjuanpabloii.github.io/issues"
+   },
+   "homepage": "https://github.com/dairdev/iepjuanpabloii.github.io#readme"
+}

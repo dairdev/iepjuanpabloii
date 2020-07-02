@@ -1,0 +1,339 @@
+[
+	{
+		"dni": "79942499",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Jimenez Fernandez, Leandro Ruben",
+		"is": 1
+	},
+	{
+		"dni": "79870432",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Aldana Silva, Thiago George",
+		"is": 1
+	},
+	{
+		"dni": "90151196",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Delgado Jimenez, Luana Valentina",
+		"is": 1
+	},
+	{
+		"dni": "79742117",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Cieza Medina, Aleli Maythe",
+		"is": 1
+	},
+	{
+		"dni": "79624164",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Ortis Cueva, Astrid Briana",
+		"is": 1
+	},
+	{
+		"dni": "90019722",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Nuñez Castañeda, Audrey Ivi Alize",
+		"is": 1
+	},
+	{
+		"dni": "76609532",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Camacho Alarcon, Ethson André",
+		"is": 1
+	},
+	{
+		"dni": "79757313",
+		"key": "I3P.jp2",
+		"grade": "i3",
+		"names": "Chamaya Suyon, Leython Leyser",
+		"is": 1
+	},
+	{
+		"dni": "79358994",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Montalvo Davila, Liam Steven",
+		"is": 1
+	},
+	{
+		"dni": "78908796",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Carrión Aguilar, Lucas Fabian",
+		"is": 1
+	},
+	{
+		"dni": "5632489",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Pardo Saldaña, Flavia Brunella",
+		"is": 1
+	},
+	{
+		"dni": "79353122",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Camasca Sanchéz, Noah Samir",
+		"is": 1
+	},
+	{
+		"dni": "79178610",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Delgado Jimenez, Flavia Luciana",
+		"is": 1
+	},
+	{
+		"dni": "7920i567",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Salazar Delgado, Thiago Soldver",
+		"is": 1
+	},
+	{
+		"dni": "12345678",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Perez Gavidia, Wilmer Said",
+		"is": 1
+	},
+	{
+		"dni": "79171598",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Requejo Carrión, Thiago Marchelo",
+		"is": 1
+	},
+	{
+		"dni": "79595325",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "García Fernandéz, Liam Alexis",
+		"is": 1
+	},
+	{
+		"dni": "79262391",
+		"key": "I3P.jp2",
+		"grade": "i4",
+		"names": "Peralta Zamudio, Vasco Manuel",
+		"is": 1
+	},
+	{
+		"dni": "78667738",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Monteza Jimenez, Amira Sofia",
+		"is": 1
+	},
+	{
+		"dni": "78879275",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Tolentino Santa Cruz, Cristhofer Alfonso",
+		"is": 1
+	},
+	{
+		"dni": "79002030",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Rodriguez Obrigon, Dylan Mathias",
+		"is": 1
+	},
+	{
+		"dni": "33665512",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Linares Diaz, Marcelo",
+		"is": 1
+	},
+	{
+		"dni": "78896797",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Torres Seclen, Dylant Marc Ackerly",
+		"is": 1
+	},
+	{
+		"dni": "97874297",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Naira Gil, Angel",
+		"is": 1
+	},
+	{
+		"dni": "78842064",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Cordova León, Thiago Estefano Alejandro",
+		"is": 1
+	},
+	{
+		"dni": "78758411",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Samame Adrianzen, Liam Aryei",
+		"is": 1
+	},
+	{
+		"dni": "78663692",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Martinez Morales, liam Ernesto",
+		"is": 1
+	},
+	{
+		"dni": "78689239",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Villanueva Dominguez, Liam Armando",
+		"is": 1
+	},
+	{
+		"dni": "78588878",
+		"key": "I3P.jp2",
+		"grade": "i5",
+		"names": "Espejo Julca, Ivanna del Cielo",
+		"is": 1
+	},
+
+	{
+		"dni": "78411018",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Altamirano Torres, Lyan Solange",
+		"is": 1
+	},
+	{
+		"dni": "78207594",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Pardo Saldaña, Milagros Yeray",
+		"is": 1
+	},
+	{
+		"dni": "78409024",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Burgos Camasca, Nikolas Jacobo Alexander",
+		"is": 1
+	},
+	{
+		"dni": "78066610",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Hoyos Chavez, Camila Antuanet",
+		"is": 1
+	},
+	{
+		"dni": "63194752",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Delgado Peña, Dayron Oscar",
+		"is": 1
+	},
+	{
+		"dni": "73000002",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Vergara Vega, Dayron Fabian",
+		"is": 1
+	},
+	{
+		"dni": "78137287",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Navarro Venegas, Yover Sebastian",
+		"is": 1
+	},
+	{
+		"dni": "78215394",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Carrasco Ruiz, Fabrizio Valentino",
+		"is": 1
+	},
+	{
+		"dni": "78146362",
+		"key": "I3P.jp2",
+		"grade": "p1",
+		"names": "Portilla Delgado, Jhoan Daniel",
+		"is": 1
+	},
+	{
+		"dni": "77609278",
+		"key": "I3P.jp2",
+		"grade": "p2",
+		"names": "Peréz Rodriguez, Jean Paul",
+		"is": 1
+	},
+	{
+		"dni": "77897848",
+		"key": "I3P.jp2",
+		"grade": "p2",
+		"names": "Palacios Serquen, Sebastian Gabriel ",
+		"is": 1
+	},
+	{
+		"dni": "77654547",
+		"key": "I3P.jp2",
+		"grade": "p2",
+		"names": "Infantas Diaz, Fernanda Valeria",
+		"is": 1
+	},
+	{
+		"dni": "81086051",
+		"key": "I3P.jp2",
+		"grade": "p2",
+		"names": "Lozano Bustamante, Pablo Fabian",
+		"is": 1
+	},
+	{
+		"dni": "77862863",
+		"key": "I3P.jp2",
+		"grade": "p2",
+		"names": "Villanueva Velez, Charles Aaron",
+		"is": 1
+	},
+	{
+		"dni": "81086086",
+		"key": "I3P.jp2",
+		"grade": "p2",
+		"names": "Vasquez Toro, Angela Fiorela",
+		"is": 1
+	},
+	{
+		"dni": "62921827",
+		"key": "I3P.jp2",
+		"grade": "p3",
+		"names": "Torres Nicolas, Sayana Dhamar",
+		"is": 1
+	},
+	{
+		"dni": "63194812",
+		"key": "I3P.jp2",
+		"grade": "p3",
+		"names": "Diáz Pérez, Brandon Jet Lee",
+		"is": 1
+	},
+	{
+		"dni": "90469124",
+		"key": "I3P.jp2",
+		"grade": "p3",
+		"names": "Cordova Torres, Cesar Emanuel",
+		"is": 1
+	},
+	{
+		"dni": "62856880",
+		"key": "I3P.jp2",
+		"grade": "p3",
+		"names": "Puell Castro, Diego Rafael",
+		"is": 1
+	}
+]

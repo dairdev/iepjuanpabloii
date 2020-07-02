@@ -1,0 +1,3135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>I.E.P. Juan Pablo II - Jaen - Peru</title>
+    <meta name="description" content="Colegio Institucion Educativa Juan Pablo II - Jaen - Peru"
+    />
+    <meta name="keywords" content="Colegio, Educativa, Jaen, Peru" />
+    <meta name="author" content="Dennis Andres Infantas Reaño" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="google-site-verification" content="VEyfl7BTpJleZeIlVInY7ItTzlfYI0yFup-ovJjtG4E"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400, 600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+    />
+
+    <link href="assets/css/styles.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-900 font-sans leading-normal tracking-normal mt-12">
+    <!--Nav-->
+    <nav class="bg-gray-900 pt-2 md:pt-1 pb-1 px-1 mt-0 h-18 fixed w-full z-20 top-0">
+        <div class="flex flex-wrap items-center">
+            <div class="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
+                <img src="assets/images/logo-h50.svg" width="40px" />
+            </div>
+
+            <div class="flex flex-1 md:w-1/3 justify-center md:justify-start text-white px-2">
+                <div class="relative w-full">
+                    <input type="search" placeholder="Buscar" class="w-full bg-gray-800 text-sm text-white transition border border-transparent focus:outline-none focus:border-gray-700 rounded py-1 px-2 pl-10 appearance-none leading-normal"
+                    />
+                    <div class="absolute search-icon" style="top: 0.5rem; left: 0.8rem;">
+                        <svg class="fill-current pointer-events-none text-white w-4 h-4" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20">
+			    <path
+				d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"
+				></path>
+			</svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex w-full pt-2 content-center justify-between md:w-1/3 md:justify-end">
+                <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+                    <li class="flex-1 md:flex-none md:mr-3">
+                        <div class="relative inline-block">
+                            <button onclick="toggleDD('myDropdown')" class="drop-button text-white focus:outline-none">
+									<span class="pr-2"><i class="em em-robot_face"></i></span>
+									Bienvenido
+									<svg
+										class="h-3 fill-current inline"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+									>
+										<path
+											d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+										/>
+									</svg>
+								</button>
+                            <div id="myDropdown" class="dropdownlist absolute bg-gray-900 text-white right-0 mt-3 p-3 overflow-auto z-30 invisible">
+                                <a href="index.html" class="js-exit-app p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"><i class="fas fa-sign-out-alt fa-fw"></i>
+				    Salir
+				</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="sidebar" class="flex flex-col md:flex-row">
+        <div class="bg-gray-900 shadow-lg h-16 fixed bottom-0 mt-12 md:relative md:h-screen z-10 w-full md:w-48">
+            <div class="md:mt-16 md:w-48 md:fixed md:left-0 md:top-0 content-center md:content-start text-left justify-between">
+                <ul class="list-reset flex flex-row md:flex-col py-0 md:py-3 px-1 md:px-2 text-center md:text-left">
+                    <li class="mr-3 flex-1">
+                        <a href="#" id="lnkComunicados" class="sidebar flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
+			    <span class="material-icons">message</span>
+			    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block" >
+				Comunicados
+			    </span>
+			</a>
+                    </li>
+                    <li class="mr-3 flex-1">
+                        <a href="#" id="lnkClases" class="sidebar flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
+			    <span class="material-icons">ballot</span>
+			    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block" >
+				Clases
+			    </span >
+			</a>
+                    </li>
+                    <li class="mr-3 flex-1">
+                        <a href="#" class="js-exit-app flex py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-purple-500 items-center">
+			    <span class="material-icons">exit_to_app</span>
+			    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block" >
+				Salir
+			    </span>
+			</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="comunicados" class="main-content flex-1 bg-gray-100 mt-12 md:mt-6 pb-24 md:pb-5">
+            <div class="bg-blue-800 p-2 shadow text-xl text-white">
+                <h3 class="font-bold pl-2">Comunicados</h3>
+            </div>
+            <div class="flex flex-col content-center items-center">
+                <div class="w-3/4 shadow mt-2 sm:mt-6 p-4 pb-6">
+                    <h2 class="text-xl font-bold text-center">Comunicado</h2>
+                    <p class="text-right">Jaen 03 Abri 2020</p>
+                    <div class="text-justify mt-12">
+                        <p>
+                            La I.E.P. Juan Pablo II le da la bienvenida a su nueva plataforma virtual
+                        </p>
+                        <br />
+                        <p>Aqui podrá encontrar:</p>
+                        <ul class="list-disc ml-4">
+                            <li class="mt-2">Comunicados Institucionales</li>
+                            <li class="mt-2">Clases y Asignaciones</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-3/4 shadow mt-2 sm:mt-6 p-4 pb-6">
+                    <h2 class="text-xl font-bold text-center">Comunicado</h2>
+                    <h2 class="text-xl font-bold text-center">Semana Santa</h2>
+                    <p class="text-right">Jaen 08 Abril 2020</p>
+                    <div class="text-justify mt-12">
+                        <p>
+                            La I.E.P. Juan Pablo II saluda a nuestra familia Juan Pablina en estas fechas donde
+                            como cristianos recordamos los últimos días y el sacrificio
+                            de nuestro Señor Jesucristo, y sobre todo su Resurrección
+                            que es nuestra esperanza de resucitar con él en el
+                            final de los tiempos.
+                        </p>
+                        <br />
+                    </div>
+                    <div class="flex items-center justify-center mt-2">
+                        <iframe id="video-semana-santa" width="560" height="315" src="https://www.youtube.com/embed/e4zxjBwbD1I"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="w-3/4 shadow mt-2 sm:mt-6 p-4 pb-6">
+                    <h2 class="text-xl font-bold text-center">Comunicado</h2>
+                    <h2 class="text-xl font-bold text-center">Recomendaciones</h2>
+                    <p class="text-right">Jaen 08 Abril 2020</p>
+                    <div class="text-justify mt-12">
+                        <p>
+                            La I.E.P. Juan Pablo II Jaén a través de sus profesoras llamamos a la reflexión
+                            y sugerimos algunos consejos a seguir durante estos
+                            días de cuarentena.
+                        </p>
+                        <br />
+                    </div>
+                    <div class="flex items-center justify-center mt-2">
+                        <iframe id="video-recomendaciones" width="560" height="315" src="https://www.youtube.com/embed/i-kZzuyI41Y"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="clases" class="main-content flex-1 bg-gray-200 mt-12 md:mt-6 pb-24 md:pb-5 hidden">
+            <div class="bg-blue-800 p-2 shadow text-xl text-white">
+                <h3 class="font-bold pl-2">Clases</h3>
+            </div>
+            <div id="inicial" class="flex flex-wrap w-full pt-8 items-center justify-center hidden">
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="2" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">2 Años</a></div>
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="3" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">3 Años</a></div>
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="4" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">4 Años</a></div>
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="5" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">5 Años</a></div>
+            </div>
+            <div id="primaria" class="flex flex-wrap w-full pt-8 items-center justify-center hidden">
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="1" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">1 Grado</a></div>
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="2" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">2 Grado</a></div>
+                <div class="flex justify-center w-full md:w-1/4 p-2"><a href="#" data-age="3" class="grade rounded-full flex h-32 w-32 items-center justify-center bg-blue-900 hover:bg-blue-700  text-white font-bold text-xl">3 Grado</a></div>
+            </div>
+
+            <div id="content" class="flex flex-col w-full pt-8 ">
+
+                <div id="i2" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CGB1dGdLV5A"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/inicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XSH-rHgikLs"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/inicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MeneFhkOpBo"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Inicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hS8OR8Cr7H8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Inicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4Vr7p7poy8g"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaInicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YoVSJCxO5vk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-Inicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 20 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2MH75TjBVtI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes20Abril20/lunes20-inicial2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TZoQuUvuwRU"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril172020/02 AÑOS.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fx7RV1DvTM"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril162020/02.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Js0TgRMvqzc"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril152020/2/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_542OC75sI0"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril142020/2/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KuYC_HXkuAI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril132020/2/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QdZU3HgPJ7Q"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril062020/2/Pintamos.docx">
+			    <span>Pintamos.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril072020/2/Conocemos el circulo.docx">
+			    <span>Conocemos el circulo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/2/Decoramos la manzana.docx">
+			    <span>Decoramos la manzana.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HQgV9g9N3bI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril092020/2/Semana Santa.docx">
+			    <span>Semana Santa.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+
+                <div id="i3" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 29 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/15f7Jm_a8Ro"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles29Abril20/Inicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rc3gyn1dQsQ"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes28Abril20/Inicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oaLJG1OS0sw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/inicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CwJpwwjwZHA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Inicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OOiD34p7vmk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Inicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pNLb_FqpvIM"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaInicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VXKJmtNfOq8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-Inicial3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFeEhbJlYqk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril172020/03 AÑOS.pdf">
+			    <span>Ficha de trabajo</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zIJ0Yz_Qegw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril162020/03.pdf">
+			    <span>Ficha de trabajo</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kZXEeMNFTls"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril152020/3/Ficha de trabajo.docx">
+			    <span>Ficha de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/q2kKsQ9do8A"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril142020/3/Ficha de trabajo.docx">
+			    <span>Ficha de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xDKpGGOEIDc"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril132020/3/Ficha de trabajo.docx">
+			    <span>Ficha de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nKL4OBL_wA4"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril062020/3/Delinea y colorea.docx">
+			    <span>Delinea y colorea.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril072020/3/ARRIBA-ABAJO.docx">
+			    <span>Arriba-Abajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qBlgEjzYjbY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/3/Traza las lineas.docx">
+			    <span>Traza las lineas.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril092020/3/Semana Santa.docx">
+			    <span>Semana Santa.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+
+                <div id="i4" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 29 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nA88lcdLgDA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles29Abril20/Inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nu9hyGdm6W0"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes28Abril20/Inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj38keMJLpw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xh7AeYXkZVk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/55qebrwISbM"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZCwFnybCyMs"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaInicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WjT0fbAxatA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-Inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 20 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WitN6MXik_s"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes20Abril20/lunes20-inicial4.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tyREI4M_f4s"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril172020/04 AÑOS.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FBnLTZ2UYps"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril162020/04.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yLwCyEXi8ms"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril152020/4/Fichas de trabajo.docx ">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bHZgd48p31k"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril142020/4/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gHujIXSUcSg"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril132020/4/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/50dRDAbbeAI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril062020/4/Aprendemos las palabras que riman.docx">
+			    <span>Aprendemos las palabras que riman.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril062020/4/maripositas iguales.docx">
+			    <span>Maripositas iguales</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril072020/4/Figuras iguales.docx">
+			    <span>Figuras iguales.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril072020/4/Sonido final.docx">
+			    <span>Sonido final.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Dia32hT7yXU"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/4/Figuras diferentes.docx">
+			    <span>Sonido final.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/4/Sonidos onomatopeyicos.docx">
+			    <span>Sonidos onomatopeyicos.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril092020/4/Semana Santa.docx">
+			    <span>Semana Santa.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+
+                <div id="i5" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 29 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rGzqNr7Z3aQ"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles29Abril20/Inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HxsWPVaPzuk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes28Abril20/Inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4vfGgRhcWl4"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/25sAqddsVzA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/p4O1TkQGVRs"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aanmFz5P7QM"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaInicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/m76aCoJ7ddU"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-Inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 20 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WCVgn2qdOx0"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes20Abril20/lunes20-inicial5.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UHmZ_wLnBso"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril172020/05 AÑOS.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C2IOe18_GYI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril162020/05.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XRuIq9u09W8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril152020/5/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MDuS2vGQJeU"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril142020/5/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MDz2gyxW0oA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril132020/5/Fichas de trabajo.docx">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DoZ0EeqNpVw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril062020/5/conozcamos la vocal A.docx">
+			    <span>Conozcamos la vocal A.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril062020/5/Identificamos grupos.docx">
+			    <span>Identificamos grupos.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril072020/5/Clasificamos.docx">
+			    <span>Clasificamos.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril072020/5/delineamos la vocal a.docx">
+			    <span>Delinamos la volcal a.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rTNIjR-T3mk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/5/formando conjuntos.docx">
+			    <span>Formando conjuntos.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/5/vocal A mayuscula.docx">
+			    <span>Vocal A mayuscula.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/inicial/Abril082020/5/vocal A mayuscula.docx">
+			    <span>Vocal A mayuscula.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+                <div id="p1" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 29 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AnFKjd98F2s"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles29Abril20/Primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QQhMACJBJD8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes28Abril20/Primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cuOK1hcS-JI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YrYsKDwovUY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nq_E5nzWJX8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/H5FHVu0kPPw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaPrimaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PwzTKxTzV0o"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 20 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lsBympe5k"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes20Abril20/lunes20-primaria1.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/onMIFgsldwY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/VIERNES 17 - 1° PRIMARIA.pdf">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pha_X17STLU"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/JUEVES16-01-PRIMARIA.pdf">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q0b4enHAsHQ"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/15Abril/MIERCOLES 15.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7uShu3TdSPI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/14Abril/MARTES 14.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MGs2rvPFTRo"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/13Abril/LUNES 13.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GLuWqfynRXo"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/COMUNICACION/LUNES 06-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/MATEMATICA/LUNES 06-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/COMUNICACION/MARTES 07-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/MATEMATICA/MARTES 07-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1rdubmijrXk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5gpE2jvFg4M"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/COMUNICACION/MIERCOLES 08-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/MATEMATICA/MIERCOLES 08-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/COMUNICACION/JUEVES 09 -04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/MATEMATICA/JUEVES 09-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Viernes 10 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/COMUNICACION/VIERNES 10 -04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/PRIMERO/MATEMATICA/VIERNES 10-04.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+
+                <div id="p2" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 29 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hA9TyvHE47s"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles29Abril20/Primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KodrALM9RSw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes28Abril20/Primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KWYFJFqOpHA"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bY80ren_sMI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pvs84XWDaeI"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bxtRpKr-yDc"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaPrimaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ORYXElBc_B8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 20 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/S7Y0-ES2wpM"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes20Abril20/lunes20-primaria2.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/davF7qdGh4Q"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/VIERNES 17 - 2do. PRIMARIA.pdf">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qpk-z5ZreP0"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/JUEVES16-02-PRIMARIA.pdf">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aAoSPp1SO7k"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/15Abril/MIERCOLES 15.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/T8BDPKp5Mjw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/14Abril/MARTES 14.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MGs2rvPFTRo"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/13Abril/LUNES 13.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/W_TSMYD4Fos"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/COMUNICACION/LUNES 06.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/MATEMATICA/LUNES 06.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/COMUNICACION/MARTES 07.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/MATEMATICA/MARTES 07.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1rdubmijrXk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/COMUNICACION/MIERCOLES 08.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/MATEMATICA/MIERCOLES 08.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/COMUNICACION/JUEVES 09.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/MATEMATICA/JUEVES 09.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Viernes 10 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/COMUNICACION/VIERNES 10.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/SEGUNDO/MATEMATICA/VIERNES 10.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+                <div id="p3" class="content-class hidden">
+
+                    <h2 class="font-bold text-3xl text-center">Semana 27 Abril - 01 Mayo</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 29 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VSpJh5H3h-E"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles29Abril20/Primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 28 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CtT2Tzq5YqY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes28Abril20/Primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 27 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5I2-ifNGJr4"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes28Abril20/primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 20 - 24</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 24 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/x1V_J_CCiBk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Viernes24Abril/Primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 23 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/X6zr02UT8BY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Jueves23Abril/Primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 22 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MlpKcwwI4H8"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Miercoles22Abril/FichaPrimaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Martes 21 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/if6_fHG6ESw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Martes21Abril20/Martes21Abril-primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 20 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XN-Wno95DoU"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/Lunes20Abril20/lunes20-primaria3.pdf">
+			    <span>Fichas de trabajo.docx</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+
+                    <h2 class="font-bold text-3xl text-center">Semana 13 - 17</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Viernes 17 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bFbLobOaRsw"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/VIERNES 17 - 3ro. PRIMARIA.pdf">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Jueves 16 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Gw_gGzZcK0"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/JUEVES16-03-PRIMARIA.pdf">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Miercoles 15 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gb_E0fLyf3Y"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/15Abril/MIERCOLES 15.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Martes 14 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vAZCjA2Z2kY"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/14Abril/MARTES 14.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 13 Abril 2020</h3>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MGs2rvPFTRo"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/13Abril/LUNES 13.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+
+                    <h2 class="font-bold text-3xl text-center">Semana 06 - 10</h2>
+
+                    <h3 class="font-bold text-2xl text-center">Lunes 06 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4">
+                        <h3 class="flex flex-row items-center">
+                            <span class="material-icons">videocam</span>
+                            <span>Video</span>
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/osSEDHdkfw0"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/COMUNICACION/LUNES 06.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/MATEMATICA/LUNES 06.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center mt-4">Martes 07 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/COMUNICACION/MARTES 07.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/MATEMATICA/MARTES 07.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Miercoles 08 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/COMUNICACION/MIERCOLES 08.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/MATEMATICA/MIERCOLES 08.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Jueves 09 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/COMUNICACION/JUEVES 09.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/MATEMATICA/JUEVES 09.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h3 class="font-bold text-2xl text-center">Viernes 10 Abril 2020</h3>
+                    <h2 class="font-bold flex items-center text-2xl p-4">
+                        <span class="material-icons">menu_book</span>
+                        <span>Comunicación</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/COMUNICACION/VIERNES 10.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                    <h2 class="font-bold flex items-center text-2xl p-4 mt-8">
+                        <span class="material-icons">menu_book</span>
+                        <span>Matemáticas</span>
+                    </h2>
+                    <div class="content p-4 flex flex-row">
+                        <h3 class="flex flex-row items-center mr-4">
+                            <span class="material-icons">list_alt</span>
+                            <span>Ficha</span>
+                        </h3>
+                        <a class="flex flex-row md:w-64 items-center justify-between bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            href="docs/primaria/TERCERO/MATEMATICA/VIERNES 10.docx">
+			    <span>Descargar</span>
+			    <span class="material-icons">get_app</span>
+			</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/aula/app.min.js"></script>
+</body>
+
+</html>

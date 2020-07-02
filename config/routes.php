@@ -17,6 +17,7 @@ return function (App $app) {
 		$args
 	) {
 		$renderer = new PhpRenderer('./templates');
+		$renderer->setLayout("layout.php");
 
 		//$response->getBody()->write('Hello, Dennis!');
 
